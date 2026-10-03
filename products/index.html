@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Products — TASH LAB</title>
+  <meta name="description" content="Practical accessories from TASH LAB, made in small batches in Saint Paul, Minnesota.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Products — TASH LAB">
+  <meta property="og:description" content="Practical accessories from TASH LAB, made in small batches in Saint Paul, Minnesota.">
+  <meta property="og:image" content="https://tashlab.net/images/vial-holders.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="/" aria-label="TASH LAB home">
+        <svg viewBox="61 43 920 920" aria-hidden="true">
+          <circle cx="521" cy="503" r="452" fill="#e3e3e3" stroke="#0d0d0d" stroke-width="18"/>
+          <rect x="128" y="437" width="786" height="133" fill="#efefee" stroke="#0d0d0d" stroke-width="4"/>
+          <rect x="130" y="439" width="217" height="129" fill="#f4c445"/>
+          <rect x="676" y="439" width="236" height="129" fill="#586a6e"/>
+          <path fill="#0d0d0d" d="M274 386h198v51h-73v179h-52V437h-73zM623 386h53v184h100v46H623z"/>
+        </svg>
+        <span>TASH LAB</span>
+      </a>
+      <nav class="nav-links">
+        <a class="link" href="/products/" aria-current="page">Products</a>
+        <a class="btn small" href="https://www.etsy.com/shop/TASHLAB" target="_blank" rel="noopener">Etsy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="page-head">
+      <div class="eyebrow"><span class="tribar" aria-hidden="true" style="width:42px;height:10px"><i></i><i></i><i></i></span> Shop</div>
+      <h1>Products</h1>
+    </div>
+    <div class="grid">
+      <!-- To add a product: copy this <a class="card"> block, point it at the new page, and swap the image and text. -->
+      <a class="card" href="/products/vial-holder/">
+        <img src="/images/vial-holders.webp" alt="TASH LAB vial holders in navy, green, black and grey" width="2000" height="1120">
+        <div class="body">
+          <h2>Vial Holder</h2>
+          <p>Space-saving storage for Testosterone Cypionate 200mg/ml vials, with an expiration-date window.</p>
+          <div class="dots" aria-label="Available in navy, green, black and grey">
+            <i style="background:#22355a"></i><i style="background:#5d6b3d"></i><i style="background:#1c1c1c"></i><i style="background:#d4d5d3"></i>
+          </div>
+        </div>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>© <span id="yr">2026</span> TASH LAB · Saint Paul, Minnesota</span>
+      <a href="https://www.etsy.com/shop/TASHLAB" target="_blank" rel="noopener">etsy.com/shop/TASHLAB</a>
+    </div>
+  </footer>
+
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
