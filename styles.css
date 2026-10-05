@@ -141,3 +141,14 @@ footer a { font-weight: 700; color: var(--ink); }
 .card p { margin: 0; color: var(--muted); font-size: 15px; }
 .card .dots { display: flex; gap: 6px; margin-top: 14px; }
 .card .dots i { width: 16px; height: 16px; border: 2px solid var(--ink); border-radius: 50%; }
+
+/* Price + specs */
+.price { font-weight: 800; color: var(--ink); margin-top: 10px; }
+.price.big { font-size: 28px; margin: -12px 0 28px; }
+.specs { border-top: var(--line); }
+.spec-list { margin: 0; border: var(--line); background: var(--paper); }
+.spec-list > div { display: grid; grid-template-columns: 180px 1fr; gap: 16px; padding: 16px 24px; }
+.spec-list > div + div { border-top: 2px solid var(--ink); }
+.spec-list dt { font-weight: 800; text-transform: uppercase; letter-spacing: .06em; font-size: 14px; }
+.spec-list dd { margin: 0; color: var(--muted); }
+@media (max-width: 600px) { .spec-list > div { grid-template-columns: 1fr; gap: 2px; } }
